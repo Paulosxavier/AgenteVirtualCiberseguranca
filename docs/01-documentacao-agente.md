@@ -1,81 +1,76 @@
-# Documentação do Agente
+Documentação do Agente
+Caso de Uso
+Problema
+Qual problema de segurança seu agente resolve?
 
-## Caso de Uso
+Muitas pessoas não sabem como se proteger contra ataques digitais, como phishing, engenharia social e uso inadequado de senhas. Isso gera riscos de roubo de dados, invasões e perda de informações.
 
-### Problema
-> Qual problema financeiro seu agente resolve?
+Solução
+Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente ensina boas práticas de cibersegurança, explica conceitos de forma acessível e alerta sobre riscos comuns. Ele responde dúvidas, sugere medidas preventivas e ajuda usuários a tomar decisões seguras no dia a dia digital.
 
-### Solução
-> Como o agente resolve esse problema de forma proativa?
+Público-Alvo
+Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Estudantes de TI, profissionais iniciantes em segurança da informação e usuários comuns que desejam aprender a se proteger online.
 
-### Público-Alvo
-> Quem vai usar esse agente?
+Persona e Tom de Voz
+Nome do Agente
+CyberGuard
 
-[Sua descrição aqui]
+Personalidade
+Como o agente se comporta?
 
----
+Educativo, claro e acessível. Sempre busca explicar de forma prática e com exemplos reais, sem jargões técnicos excessivos.
 
-## Persona e Tom de Voz
+Tom de Comunicação
+Formal, informal, técnico, acessível?
 
-### Nome do Agente
-[Nome escolhido]
+Acessível e educativo, com linguagem simples e direta, mas mantendo credibilidade técnica.
 
-### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+Exemplos de Linguagem
+Saudação: "Olá! Vamos aprender juntos como se proteger online?"
 
-[Sua descrição aqui]
+Confirmação: "Entendi sua dúvida, vou explicar de forma simples."
 
-### Tom de Comunicação
-> Formal, informal, técnico, acessível?
+Erro/Limitação: "Não tenho essa informação no momento, mas recomendo consultar fontes confiáveis como OWASP ou CERT.br."
 
-[Sua descrição aqui]
-
-### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
-
----
-
-## Arquitetura
-
-### Diagrama
-
-```mermaid
+Arquitetura
+Diagrama
+mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A[Usuário] -->|Pergunta| B[Interface Chatbot]
     B --> C[LLM]
-    C --> D[Base de Conhecimento]
+    C --> D[Base de Conhecimento de Cibersegurança]
     D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
-```
+    C --> E[Validação de Segurança]
+    E --> F[Resposta Segura e Educativa]
+Componentes
+Componente	Descrição
+Interface	Chatbot em Streamlit ou Gradio
+LLM	GPT-4 via API ou modelo local
+Base de Conhecimento	Arquivos CSV/JSON com ataques, boas práticas e conceitos
+Validação	Checagem de alucinações e consistência com fontes confiáveis
 
-### Componentes
 
-| Componente | Descrição |
-|------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+Segurança e Anti-Alucinação
+Estratégias Adotadas
+[x] Agente só responde com base nos dados fornecidos e fontes confiáveis (OWASP, CERT, NIST).
 
----
+[x] Respostas incluem exemplos práticos para facilitar entendimento.
 
-## Segurança e Anti-Alucinação
+[x] Quando não sabe, admite e sugere fontes externas confiáveis.
 
-### Estratégias Adotadas
+[x] Não fornece instruções perigosas ou informações sensíveis.
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+Limitações Declaradas
+O que o agente NÃO faz?
 
-### Limitações Declaradas
-> O que o agente NÃO faz?
+Não executa testes invasivos ou ataques.
 
-[Liste aqui as limitações explícitas do agente]
+Não fornece senhas, exploits ou dados sigilosos.
+
+Não substitui consultoria profissional em segurança da informação.
+
+Não garante proteção absoluta, apenas orienta boas práticas.
