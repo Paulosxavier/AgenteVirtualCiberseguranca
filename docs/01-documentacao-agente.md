@@ -38,14 +38,7 @@ Erro/Limitação: "Não tenho essa informação no momento, mas recomendo consul
 
 Arquitetura
 Diagrama
-mermaid
-flowchart TD
-    A[Usuário] -->|Pergunta| B[Interface Chatbot]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento de Cibersegurança]
-    D --> C
-    C --> E[Validação de Segurança]
-    E --> F[Resposta Segura e Educativa]
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/360b6fe6-3ddc-4336-811e-17b0ad398f74" />
 Componentes
 Componente	Descrição
 Interface	Chatbot em Streamlit ou Gradio
