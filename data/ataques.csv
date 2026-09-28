@@ -1,0 +1,7 @@
+Nome do Ataque,Descrição,Impacto,Exemplo
+Phishing,"Tentativa de enganar usuários para obter informações sensíveis via e-mails ou sites falsos","Roubo de credenciais, acesso indevido a contas","E-mail falso de banco pedindo atualização de senha"
+Ransomware,"Malware que criptografa arquivos e exige pagamento de resgate","Perda de dados, paralisação de sistemas","Ataque WannaCry que afetou empresas globais em 2017"
+DDoS,"Sobrecarga de servidores através de múltiplas requisições simultâneas","Indisponibilidade de serviços online","Ataque a sites governamentais que ficaram fora do ar"
+Engenharia Social,"Manipulação psicológica para induzir pessoas a revelar informações","Exposição de dados sigilosos","Ligação fingindo ser suporte técnico pedindo senha"
+Spoofing de DNS,"Redirecionamento de tráfego para sites falsos por manipulação de DNS","Roubo de dados e credenciais","Usuário acessa site falso de banco sem perceber"
+Scareware,"Software que engana o usuário simulando ameaças falsas","Instalação de programas maliciosos","Pop-up dizendo que o computador está infectado e pedindo download de 'antivírus'"
