@@ -1,0 +1,14 @@
+{
+  "senhas": [
+    "Use senhas longas com letras, números e símbolos",
+    "Nunca reutilize a mesma senha em serviços diferentes"
+  ],
+  "autenticacao": [
+    "Ative MFA sempre que possível",
+    "Evite SMS como segundo fator, prefira apps autenticadores"
+  ],
+  "navegacao": [
+    "Não clique em links suspeitos",
+    "Verifique se o site usa HTTPS"
+  ]
+}
