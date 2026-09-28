@@ -1,0 +1,5 @@
+Nome,Foco,Exemplo de Uso
+Firewall,"Controle de tráfego de rede","Bloquear acessos não autorizados"
+Antivírus,"Detecção de malware","Remover vírus conhecidos"
+VPN,"Privacidade e criptografia","Proteger navegação em redes públicas"
+IDS/IPS,"Monitoramento de intrusões","Detectar e prevenir ataques em tempo real"
